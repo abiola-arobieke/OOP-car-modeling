@@ -1,6 +1,7 @@
 export class Suspension{
-    constructor(springRate){
+    constructor(springRate, wheel){
         this.springRate = springRate
+        this.wheel = wheel;
         this.cars;
     }
 
