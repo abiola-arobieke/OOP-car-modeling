@@ -1,5 +1,5 @@
 export class Body {
-    constructor(noOfDoors){
+    constructor(noOfDoors) {
         this.noOfDoors = noOfDoors
         this.car = this
     }
