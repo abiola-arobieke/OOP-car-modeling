@@ -1,11 +1,13 @@
 export class Car {
-    constructor(year, gearBox, engine) {
+    constructor(year, gearBox, engine, body) {
         this.chasisNumber = Math.floor(Math.random() * 1000) + 1;
         this.year = year
         this.gearBox = gearBox
         this.engine = engine
+        this.body = body
         this.model;
         this.suspensions = []
+        this.brake;
     }
 
     get car_model() {
