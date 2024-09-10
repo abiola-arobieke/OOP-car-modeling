@@ -21,8 +21,24 @@ export class Car {
         }
     }
 
-    addSuspension(suspension){
+    addSuspension(suspension) {
         this.suspensions.push(suspension)
         suspension.car = this
+    }
+
+    startEngine() {
+        return this.engine.start()
+    }
+
+    applyBrake() {
+        return this.brake.apply()
+    }
+
+    shiftUpGear() {
+        return this.gearBox.shiftUp()
+    }
+
+    shiftDownGear() {
+        return this.gearBox.shiftDown()
     }
 }
