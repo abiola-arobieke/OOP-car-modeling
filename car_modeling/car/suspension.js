@@ -1,17 +1,17 @@
-export class Suspension{
-    constructor(springRate, wheel){
+export class Suspension {
+    constructor(springRate, wheel) {
         this.springRate = springRate
         this.wheel = wheel;
         this.cars;
     }
 
-    get car(){
+    get car() {
         return this.cars
     }
 
-    set car(car){
+    set car(car) {
         this.cars = car
-        if(!car.suspensions.includes(this)){
+        if (!car.suspensions.includes(this)) {
             car.suspensions.push(this)
         }
     }
