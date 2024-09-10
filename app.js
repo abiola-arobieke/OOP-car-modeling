@@ -48,8 +48,14 @@ gear_box.addGearBoxType(gear_box_type2)
 accord.add_car(eod)
 accord.add_car(baby_boy)
 
-console.log(brake1)
-console.log(brake2)
+console.log(eod.startEngine())
+console.log(eod.applyBrake())
+console.log(eod.shiftUpGear())
+console.log(eod.shiftDownGear())
+
+
+// console.log(brake1)
+// console.log(brake2)
 
 
 // console.log(baby_boy)
