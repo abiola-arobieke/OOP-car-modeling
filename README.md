@@ -102,8 +102,8 @@ Open your code editor terminal and run the following command
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Transform to a car modeling web app**
-- [ ] **Create a database for the car modeling web app**
+- [ ] **Transform to a car game app**
+- [ ] **Create a database for the car modeling app**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
