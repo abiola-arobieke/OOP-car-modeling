@@ -1,18 +1,18 @@
 export class CarModel {
-    constructor(title){
+    constructor(title) {
         this.title = title
         this.cars = []
     }
 
-    get car(){
+    get car() {
         return cars
     }
 
-    set car(vehicle){
+    set car(vehicle) {
         this.cars = vehicle
     }
 
-    add_car(vehicle){
+    add_car(vehicle) {
         this.cars.push(vehicle)
         vehicle.car_model = this
     }
